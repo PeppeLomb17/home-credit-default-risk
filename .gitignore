@@ -1,0 +1,49 @@
+# === SEGRETI ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# === DATI ===
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+
+# === DOCKER ===
+postgres_data/
+
+# === MLFLOW ===
+mlruns/
+mlartifacts/
+
+# === TOOL CACHE ===
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
